@@ -1026,7 +1026,7 @@ body {
 }
 
 .swiper-slide.service {
-	width: 40%;
+	width: 60%;
 	min-width: 500px;
 	padding: 0 95px;
 	border-left: 1px solid #ddd;
@@ -1039,16 +1039,16 @@ body {
 }
 .swiper-slide.service .inner {
 	position: relative;
-	top: 45%;
-	transform: translate3d(0, -50%, 0);
+	top: 90px;
+	/* transform: translate3d(0, -50%, 0); */
 }
 .swiper-slide.service .inner .icon {
 	width: 150px;
 	height: 150px;
 	background-color: #fff;
 	background-position: 0 0;
-	position: absolute;
-	top: -180px;
+	position: static;
+	top: 0;
 }
 .swiper-slide.service .inner #icon-1 {
 	background-image: url(../images/service-1.png);
@@ -1829,8 +1829,6 @@ section.blog-post .comment_form form input.button {
 	}
 }
 .fixed-positioned {
-	float: left;
-	width: 475px;
 	height: 100%;
 }
 .fixed-positioned .inner,
@@ -1844,10 +1842,6 @@ section.blog-post .comment_form form input.button {
 .fixed-positioned .inner a img {
 	width: 100%;
 	object-fit: cover;
-}
-.fixed-right-positioned {
-	width: calc(100% - 475px);
-	float: left;
 }
 .fixed-right-positioned .swiper-slide.service {
 	width: 80%;
