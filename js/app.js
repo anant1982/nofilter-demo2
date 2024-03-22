@@ -321,7 +321,15 @@
 					}
 				},
 			},
-			breakpoints: {},
+			breakpoints: {
+				767: {
+					freeMode: true,
+					slidesPerView: "auto",
+					spaceBetween: 0,
+					slidesOffsetAfter: 0,
+					slidesPerGroup: 1,
+				},
+			},
 		});
 
 		window.swiper = mySwiper;
