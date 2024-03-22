@@ -671,7 +671,7 @@ body {
 }
 @media (min-width: 1200px) and (max-width: 1599px) {
 	.swiper-slide.work {
-		width: 35%;
+		width: 25%;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -1047,7 +1047,7 @@ body {
 }
 .swiper-slide.service .inner {
 	position: relative;
-	top: 90px;
+	top: 30px;
 	/* transform: translate3d(0, -50%, 0); */
 }
 @media (max-width: 767px) {
