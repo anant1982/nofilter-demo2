@@ -1031,7 +1031,7 @@ body {
 	width: 60%;
 	min-width: 500px;
 	padding: 120px 95px 0;
-	border-left: 1px solid #ddd;
+	/* border-left: 1px solid #ddd; */
 }
 @media screen and (max-width: 1024px) {
 	.swiper-slide.service {
@@ -1086,8 +1086,8 @@ body {
 }
 
 .swiper-slide.service.last {
-	border-right: 1px solid #ddd;
-	border-left: 1px solid #ddd;
+	/* border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd; */
 }
 
 .swiper-slide.clients {
